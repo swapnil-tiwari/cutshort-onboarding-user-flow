@@ -1,0 +1,43 @@
+label
+{
+    color:#696969;
+    float:left;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+}
+.formInputs
+{
+    margin-top:30px;
+}
+form
+{
+    width:30%;
+    margin: auto;
+}
+.view3Container
+{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.view3Box
+{
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding:10px;
+    text-align: left;
+    height: 200px;
+}
+.controlButton
+{
+    width: 70%;
+    height: 40px;
+    background-color: #664de5;
+    border:0px;
+    padding:2px;
+    margin-top:10px;
+    color:white;
+    border-radius:8px;
+}
