@@ -22,13 +22,13 @@ function FormView(props) {
 
                 <div className={`form-group ${styles.formInputs}`}>
                   
-                  <Link to="/formView1"><input type="button"  className={styles.controlButton} value="Create Workspace"/></Link>
+                  <Link to="/formView2"><input type="button"  className={styles.controlButton} value="Create Workspace"/></Link>
                 </div>
 
                 
                 
         </form>
-        <Outlet/>
+        
         </div>
     );
 }

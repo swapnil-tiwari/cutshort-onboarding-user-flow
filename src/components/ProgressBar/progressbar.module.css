@@ -1,12 +1,18 @@
 .line
 {
     margin: auto !important;
-    width: 350px !important;
+    width: 300px !important;
     height: 2px !important;
-    border-top: 1px solid #696969;
-    background: #664de5
+    
+    background: #e4e3e3;
 
 
+}
+.innerLine
+{
+    height: 2px !important;
+    background: #664de5;
+    transition: all linear .5s;
 }
 .progressContainer
 {
