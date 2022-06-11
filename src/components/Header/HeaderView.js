@@ -1,14 +1,16 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
+import PropTypes from "prop-types";
+import logo from "./logo.png";
 
 function HeaderView(props) {
   return (
     <div>
-        <h3 style={{fontWeight:"bolder"}}>Eden</h3>
+      <img src={logo} style={{ display: "inline", marginBottom: "10px" }} />
+      <h3 style={{ fontWeight: "bolder", display: "inline" }}>Eden</h3>
     </div>
-  )
+  );
 }
 
-HeaderView.propTypes = {}
+HeaderView.propTypes = {};
 
-export default HeaderView
+export default HeaderView;

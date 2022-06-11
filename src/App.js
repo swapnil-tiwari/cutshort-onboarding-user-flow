@@ -6,6 +6,7 @@ import FormView3 from "./components/FormView/FormView3";
 import MessageView from "./components/MessageView/MessageView";
 import HeaderView from "./components/Header/HeaderView";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
+import FormView4 from "./components/FormView/FormView4";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route index element={<FormView />} />
             <Route path="formView2" element={<FormView2 />} />
             <Route path="formView3" element={<FormView3 />} />
+            <Route path="formView4" element={<FormView4 />} />
           </Routes>
         </div>
       </BrowserRouter>

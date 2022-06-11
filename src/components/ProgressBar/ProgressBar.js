@@ -12,6 +12,7 @@ function ProgressBar(props) {
     "/": 1,
     "/formView2": 2,
     "/formView3": 3,
+    "/formView4": 4,
   };
   let progress = paths[location.pathname];
   return (

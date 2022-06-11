@@ -16,7 +16,7 @@ function FormView2(props) {
             class="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
-            placeholder="Steve Jobs"
+            placeholder="Eden"
           />
         </div>
 
@@ -26,8 +26,7 @@ function FormView2(props) {
           <input
             type="name"
             className="form-control"
-            id="exampleInputPassword1"
-            placeholder="Steve"
+            placeholder="www.eden.com/     Example"
           />
         </div>
 
