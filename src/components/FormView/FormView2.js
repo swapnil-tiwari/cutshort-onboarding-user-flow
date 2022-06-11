@@ -22,7 +22,9 @@ function FormView2(props) {
 
         <div className={`form-group ${styles.formInputs}`}>
           <label>Workspace URL</label>
-          <span>(Optional)</span>
+          <span style={{ float: "left", fontSize: "14px", color: "grey" }}>
+            (Optional)
+          </span>
           <input
             type="name"
             className="form-control"
