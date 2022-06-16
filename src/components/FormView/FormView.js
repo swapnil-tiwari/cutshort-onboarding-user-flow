@@ -1,8 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 import styles from "./form.module.css";
 import { Outlet, Link } from "react-router-dom";
-FormView.propTypes = {};
 
 function FormView(props) {
   return (
@@ -13,10 +11,9 @@ function FormView(props) {
           <input
             type="name"
             class="form-control"
-            id="exampleInputEmail1"
+            id="fullName"
             aria-describedby="emailHelp"
             placeholder="Steve Jobs"
-            required
           />
         </div>
 
@@ -25,7 +22,7 @@ function FormView(props) {
           <input
             type="name"
             className="form-control"
-            id="exampleInputPassword1"
+            id="dispName"
             placeholder="Steve"
             required
           />
